@@ -10,6 +10,6 @@ LastRXDate:   Last RXPad Date
 LastInvDate:   Last Invoice Date
 InvAmt:           Last Invoice Amount
   
- Sample output data: https://drive.google.com/open?id=0Bx__lV25Igr4aFBDWEozbnVwMTg 
+Sample output data: https://drive.google.com/open?id=0Bx__lV25Igr4aFBDWEozbnVwMTg 
 
 
