@@ -1,5 +1,5 @@
 # Questions 3:
- 
+
 Please create a simple REST API using each of the following language: :  Python 3.5,  PHP 5.3.
  
 List of methods is displayed below:

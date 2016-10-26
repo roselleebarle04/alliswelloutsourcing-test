@@ -16,7 +16,7 @@
 	}
 
 	function formateDateTimeString(str){
-	  var pattern = /(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/i
+	  var pattern = /(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/i;
 	  output = pattern.exec(str);
 	  return new Date(output[1], output[2], output[3], output[4], output[5], output[6]);
 	}	
