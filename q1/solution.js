@@ -5,13 +5,14 @@
 	calculateTimeDifference(start, end); 
 
 	function buildTimeDiffOutput(diff) {
-	  	total_ms = diff;
-	    total_seconds = total_ms / 1000;
-	    total_minutes = total_seconds / 60; 
-	    total_hours = total_minutes / 60; 
-	    total_days = total_hours / 24;
-	    var output = total_days + ' Days ' + total_hours + ' Hours ' + total_minutes + ' Minutes ' + total_seconds; 
-	    console.log(output);
+		var days, hours, minutes, seconds, milliseconds, output;
+		diff=(diff-(milliseconds=diff%1000))/1000;
+		diff=(diff-(seconds=diff%60))/60;
+		diff=(diff-(minutes=diff%60))/60;
+		days=(diff-(hours=diff%24))/24;
+
+		output = days + ' Days ' + hours + ' Hours ' + minutes + ' Minutes ' + seconds + ' Seconds';
+		console.log(output);
 	    return output
 	}
 
