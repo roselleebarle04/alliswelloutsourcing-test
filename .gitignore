@@ -1,3 +1,4 @@
 env
 .idea
 resources
+.DS_Store
